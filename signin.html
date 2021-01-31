@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    
+    <!-- Useful meta tags -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="robots" content="index, follow">
+    <meta name="google" content="notranslate">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="">
+    
+    <title>Sign In</title>
+  </head>
+  <!-- class="show-sidebar" -->
+  <body>
+    <div class="page" id="page">
+      <!-- Header -->
+      <header class="header">
+        <div class="header__left">
+          <nav class="nav">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a class="nav__link" href="index.html">Homepage</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link has-subnav" href="#"> Pages</a>
+                <ul class="subnav">
+                  <li>
+                    <a class="subnav__link" href="#">Creating websites</a>
+                  </li>
+                  <li>
+                    <a class="subnav__link" href="#">Internet marketing</a>
+                  </li>
+                  <li>
+                    <a class="subnav__link" href="#">Video promotion</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="text.html">About me</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="text.html">Advertisement</a>
+              </li>
+            </ul>
+          </nav>
+          <button class="burger active" type="button" id="sidebarToggle">
+            <span>open nav</span>
+          </button>
+        </div>
+        <!-- ./header__left -->
+        <div class="header__right">
+          <nav class="nav">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a class="nav__link" href="profile.html">Profile</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="signin.html">Out</a>
+              </li>
+            </ul>
+          </nav>
+          <form class="search" action="/" method="post">
+            <input class="search__input" type="text" placeholder="Search" />
+          </form>
+        </div>
+      </header>
+
+      <!-- Sidebar -->
+      <aside class="sidebar" id="sidebar">
+        <div class="sidebar__header">
+          <img src="assets/images/sidebar__header__Img.jpg" alt="" />
+        </div>
+        <div class="sidebar__content">
+          <div class="profile">
+            <img class="profile__avatar" src="https://placehold.it/100" alt="" />
+            <div class="profile__header">
+              <div class="profile__name">Volodymyr Leskiv</div>
+              <div class="profile__prof">Junior Front-End Developer</div>
+            </div>
+      
+            <ul class="social">
+              <li class="social__item">
+                <a class="social__link" href="" target="_blank">
+                  <img
+                    src="assets/images/instagram.svg"
+                    alt="Volodymyr Leskiv Instagram"
+                  />
+                </a>
+              </li>
+              <li class="social__item">
+                <a class="social__link" href="" target="_blank">
+                  <img
+                    src="assets/images/facebook.svg"
+                    alt="Volodymyr Leskiv Facebook"
+                  />
+                </a>
+              </li>
+              <li class="social__item">
+                <a class="social__link" href="" target="_blank">
+                  <img
+                    src="assets/images/pinterest.svg"
+                    alt="Volodymyr Leskiv Pinterest"
+                  />
+                </a>
+              </li>
+            </ul>
+      
+            <div class="profile__text">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ipsa
+                corrupti natus necessitatibus magni, et fugit dolorem. Labore itaque
+                doloribus cupiditate illum ipsam repudiandae voluptatum sapiente
+                placeat.
+              </p>
+            </div>
+          </div>
+          <!-- ./profile -->
+      
+          <nav class="nav nav--mobile">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a class="nav__link" href="index.html">Home page</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link has-subnav" href="#"> Pages</a>
+                <ul class="subnav">
+                  <li>
+                    <a class="subnav__link" href="#">Creating websites</a>
+                  </li>
+                  <li>
+                    <a class="subnav__link" href="#">Internet marketing</a>
+                  </li>
+                  <li>
+                    <a class="subnav__link" href="#">Video promotion</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="text.html">About me</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="text.html">Advertisement</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="profile.html">Profile</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="signin.html">Sign out</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <!-- ./sidebar__content -->
+      
+        <div class="sidebar__footer">
+          <a class="btn btn--red" href="works.html">My works</a>
+          <button class="btn btn--blue" type="button" data-modal="contact-modal">
+            Write me
+          </button>
+        </div>
+      </aside>
+
+      <!-- Main -->
+      <main class="main">
+        <div class="container">
+<h1 class="page__title page__title--center">Sign In</h1>
+
+<form class="form form--auth" action="/" method="post">
+  <div class="form__group form__group--md">
+    <input class="form__control" type="email" placeholder="Enter your email" />
+    <span class="form__line"></span>
+  </div>
+  <div class="form__group form__group--md">
+    <input
+      class="form__control"
+      type="password"
+      placeholder="Enter new password"
+    />
+    <span class="form__line"></span>
+  </div>
+
+  <div class="form__footer form__footer--center">
+    <div class="form__group form__group--md">
+      <button class="btn btn--blue btn--sm btn--rounded" type="submit">
+        Sign In
+      </button>
+    </div>
+    <ul class="form__footer-list">
+      <li>
+        <a href="signup.html">registration</a>
+      </li>
+      <li>
+        <a href="reset.html">restore</a>
+      </li>
+    </ul>
+  </div>
+</form>
+
+</div>
+      </main>
+    </div>
+
+    <div class="modal" id="story-modal">
+  <div class="modal__content modal__content--story">
+    <video
+      class="modal__video"
+      src=""
+      poster="https://placehold.it/420x580"
+    ></video>
+  </div>
+</div>
+ <div class="modal" id="contact-modal">
+  <div class="modal__content modal__content--contact">
+    <button class="modal__close" type="button">
+      <img src="assets/images/close.svg" alt="close" />
+    </button>
+    <form class="form" action="/" method="post">
+      <div class="form__group form__group--md">
+        <input
+          class="form__control"
+          type="text"
+          placeholder="Enter your name"
+          value="Jack Daniels"
+        />
+        <span class="form__line"></span>
+      </div>
+      <div class="form__group form__group--md">
+        <input
+          class="form__control"
+          type="email"
+          placeholder="Enter your email"
+        />
+        <span class="form__line"></span>
+      </div>
+      <div class="form__group form__group--md">
+        <textarea
+          class="form__control form__control--textarea"
+          placeholder="Enter your message"
+        ></textarea>
+        <span class="form__line"></span>
+      </div>
+
+      <div class="form__footer">
+        <div class="form__group form__group--md">
+          <button class="btn btn--blue btn--sm btn--rounded" type="submit">
+            Send
+          </button>
+        </div>
+      </div>
+    </form>
+
+    <ul class="modal__footer">
+      <li>
+        e-mail: <a href="mailto:info@mywebsite.com">info@mywebsite.com </a>
+      </li>
+      <li>
+        тел:
+        <a href="tel:+94323285622">+943-232-856-22</a>
+      </li>
+    </ul>
+  </div>
+  <!-- ./modal__content -->
+</div>
+<!-- ./modal -->
+ <div class="modal" id="share-modal">
+  <div class="modal__content modal__content--share">
+    <button class="modal__close" type="button">
+      <img src="assets/images/close.svg" alt="close" />
+    </button>
+
+    <ul class="social social--modal">
+      <li class="social__item">
+        <a class="social__link" href="">
+          <img src="assets/images/share-modal/facebook-modal.svg" />
+        </a>
+      </li>
+      <li class="social__item">
+        <a class="social__link" href="">
+          <img src="assets/images/share-modal/twitter-modal.svg" />
+        </a>
+      </li>
+      <li class="social__item">
+        <a class="social__link" href="">
+          <img src="assets/images/share-modal/vk-modal.svg" />
+        </a>
+      </li>
+      <li class="social__item">
+        <a class="social__link" href="">
+          <img src="assets/images/share-modal/copy-modal.svg" />
+        </a>
+      </li>
+    </ul>
+  </div>
+  <!-- ./modal__content -->
+</div>
+<!-- ./modal -->
+
+
+    <!-- JS -->
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
